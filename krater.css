@@ -142,3 +142,43 @@ nav a:hover {
     cursor: pointer;
     color: black; 
 }
+.line{
+    position: absolute;
+    width: 1800px;
+    top: 930px;
+    left: 90px;
+}
+.merch{
+    position: absolute;
+    top: 1040px;
+    left: 30px;
+}
+.jah{
+    position: absolute;
+    top: 1070px;
+    left: 1060px;
+    color: greenyellow;
+    font-family: Arial;
+    letter-spacing: 2px;
+    font-size: xx-large;
+}
+.mgomb3{
+    position: absolute;
+    left: 1060px;
+    top: 1250px;
+    background-color: greenyellow;
+    border-radius: 15px;
+    font-size: x-large;
+}
+.mgomb3:hover{
+    box-shadow: inset 300px 0 0 0 white;
+    cursor: pointer;
+    color: black; 
+}
+.irat{
+    position: absolute;
+    left: 1060px;
+    top: 1165px;
+    color: #f2f2f2;
+    font-size: x-large;
+}
