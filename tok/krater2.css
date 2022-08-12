@@ -1,0 +1,139 @@
+body {
+    background-image: url('backy.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    width: 100%;
+    overflow: auto;
+}
+ul {
+    padding: 0;
+    margin: 0 0 0 150px;
+    list-style: none;
+}
+li {
+    float: left;
+}
+.logo img {
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 5px;
+    height: 50px;
+}
+nav a {
+    width: 100px;
+    display: block;
+    padding: 20px 15px;
+    text-decoration: none;
+    font-family: Tahoma;
+    color: #f2f2f2;
+    text-align: center;
+}
+nav a:hover {
+    transition: 0.5s;
+    text-transform: uppercase;
+}
+.bejelentkezés1 {
+    position:absolute;
+    left: 1550px;
+    top: 60px;
+}
+.bgomb1 {
+    font-family: Tahoma;
+    letter-spacing: 2px;
+    font-size: medium;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: greenyellow;
+}
+.bgomb2 {
+    font-family:Tahoma;
+    letter-spacing: 2px;
+    font-size: medium;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: greenyellow;
+}
+.bgomb1:hover{
+    box-shadow: inset 300px 0 0 0 white;
+    cursor: pointer;
+    color: black; 
+}
+.bgomb2:hover{
+    box-shadow: inset 300px 0 0 0 white;
+    cursor: pointer;
+    color: black; 
+}
+.profile{
+    position: absolute;
+    left: 1830px;
+    top: 50px;
+    height: 50px;
+}
+.profile:hover{
+    cursor: pointer;
+    color: black; 
+}
+.phone2{
+    position: absolute;
+    left: 280px;
+    top: 185px;
+    height: 600px;
+}
+.iras1 {
+    position: absolute;
+    left: 1050px;
+    top: 200px;
+    color: greenyellow;
+    font-family:Tahoma;
+    letter-spacing: 2px;
+}
+.ár{
+    position:absolute;
+    left: 1050px;
+    top: 280px;
+    color: greenyellow;
+    font-family: Tahoma;
+    font-size:xx-large;
+}
+.aha{
+    position: absolute;
+    left: 1050px;
+    top: 385px;
+    color: whitesmoke;
+    font-family: Tahoma;
+    font-size:x-large;
+}
+.leiras{
+    position: absolute;
+    left: 1050px;
+    top: 430px;
+    color: whitesmoke;
+    font-family: Tahoma;
+    font-size: medium;
+}
+.mgomb{
+    position: absolute;
+    left: 1045px;
+    top: 590px;
+    background-color: greenyellow;
+    font-family: Tahoma;
+    font-size: xx-large;
+    border-radius: 15px;
+}
+.mgomb:hover{
+    cursor: pointer;
+    box-shadow: inset 300px 0 0 0 white;
+}
+.statusz{
+    position: absolute;
+    left: 1050px;
+    top: 680px;
+    color: rgb(0, 177, 0);
+    font-family: Tahoma;
+    font-size: x-large;
+}

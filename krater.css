@@ -1,0 +1,143 @@
+body {
+    background-image: url('backy.jpg');
+    background-position: center center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+Menüsorok
+nav {
+    width: 100%;
+    background: black;
+    overflow: auto;
+}
+ul {
+    padding: 0;
+    margin: 0 0 0 150px;
+    list-style: none;
+}
+li {
+    float: left;
+}
+.logo img {
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 5px;
+    height: 50px;
+}
+nav a {
+    width: 100px;
+    display: block;
+    padding: 20px 15px;
+    text-decoration: none;
+    font-family: Tahoma;
+    color: #f2f2f2;
+    text-align: center;
+}
+nav a:hover {
+    transition: 0.5s;
+    text-transform: uppercase;
+}
+.energy {
+    width: 1500px;
+    height: 800px;
+    margin: 0;
+    padding: 0;
+}
+.menu2 {
+    left: 15px;
+}
+.gomb {
+    position: absolute;
+    left: 1230px;
+    top: 235px;
+    text-decoration: none;
+    padding: 15px 15px;
+    font-family: Tahoma;
+    letter-spacing: 1px;
+    background-color: greenyellow;
+    font-size: larger;
+    border-radius: 20px;
+}
+.gomb:hover {
+    box-shadow: inset 300px 0 0 0 white;
+    cursor: pointer;
+    color: black;
+}
+
+.gomb2 {
+    position: absolute;
+    left: 555px;
+    top: 230px;
+    text-decoration: none;
+    padding: 15px 15px;
+    font-family: Tahoma;
+    letter-spacing: 1px;
+    background-color: greenyellow;
+    font-size:larger;
+    border-radius: 20px;
+}
+.gomb2:hover{
+    box-shadow: inset 300px 0 0 0 white;
+    cursor: pointer;
+    color: black; 
+}
+.nev-1 {
+    position: absolute;
+    left: 1070px;
+    top: 770px;
+    color: greenyellow;
+    font-family: Tahoma;
+    letter-spacing: 1px;
+    font-size: xx-large;
+}
+.nev-2 {
+    position:absolute;
+    left: 400px;
+    top: 770px;
+    color: greenyellow;
+    font-family: Tahoma;
+    letter-spacing: 1px;
+    font-size:xx-large;
+}
+.bejelentkezés1 {
+    position:absolute;
+    left: 1550px;
+    top: 60px;
+}
+.bgomb1 {
+    font-family: Tahoma;
+    letter-spacing: 2px;
+    font-size: medium;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: greenyellow;
+}
+.bgomb2 {
+    font-family:Tahoma;
+    letter-spacing: 2px;
+    font-size: medium;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: greenyellow;
+}
+.bgomb1:hover{
+    box-shadow: inset 300px 0 0 0 white;
+    cursor: pointer;
+    color: black; 
+}
+.bgomb2:hover{
+    box-shadow: inset 300px 0 0 0 white;
+    cursor: pointer;
+    color: black; 
+}
+.profile{
+    position: absolute;
+    left: 1830px;
+    top: 50px;
+    height: 50px;
+}
+.profile:hover{
+    cursor: pointer;
+    color: black; 
+}
