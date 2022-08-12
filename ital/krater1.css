@@ -2,6 +2,7 @@ body {
     background-image: url('backy.jpg');
     background-repeat: no-repeat;
     background-position: center center;
+    background-color: black;
     height: 100vh;
     margin: 0;
     padding: 0;
